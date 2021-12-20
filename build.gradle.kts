@@ -47,5 +47,5 @@ dependencies {
     testImplementation(Deps.junit)
     androidTestImplementation (Deps.junit_ext)
     androidTestImplementation (Deps.espresso_core)
-    implementation("com.tencent:mmkv-static:1.2.0")
+    implementation("com.tencent:mmkv-static:1.2.2")
 }
