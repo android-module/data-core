@@ -42,10 +42,10 @@ android {
 }
 
 dependencies {
-    implementation(Deps.kotlin_stdlib)
-    implementation(Deps.ktx)
-    testImplementation(Deps.junit)
-    androidTestImplementation (Deps.junit_ext)
-    androidTestImplementation (Deps.espresso_core)
-    implementation("com.tencent:mmkv-static:1.2.2")
+     implementation(libs.kotlin.stdlib.jdk8)
+    implementation(libs.kotlin.ktx)
+    testImplementation(libs.androidx.junit)
+    testImplementation(libs.androidx.junit.ext)
+    testImplementation(libs.androidx.espresso.core)
+    implementation(libs.mmkv)
 }
